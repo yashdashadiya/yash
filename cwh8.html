@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <style>
+        #name:hover,#number:hover{
+            background-color:lightslategray;
+        }
+        #button:hover{
+            size: 510px;
+        }
+    </style>
+</head>
+<body>
+    <form action="bekend.php">
+        <label for="name">Name</label>
+        <input type="text" name="myname" id="name">
+        <br>
+        <br>
+        <label for="number">Number</label>
+        <input type="number" name="mynumber" id="number">
+        <br>
+        <br>
+        <label for="free">Free</label>
+        <input type="radio" name="pr" id="free">
+        <label for="paid">paid</label>
+         <input type="radio" name="pr" checked id="paid">
+        <br>
+        <br>
+        <label for="date of payment:">Date of Payment</label>
+        <input type="date" name="Date_Pay" id="date of payment:">
+        <br>
+        <br>
+        <label for="select time">Select Time</label>
+        <select name="select" id="select time">
+            <option>7:30 to 12:30</option>
+            <option>12:30 to 4:30</option>
+            <option>4:30 to 8:30</option>
+            </select>
+
+        <hr>
+        Robot<input type="checkbox" name="yes">
+        <br>
+        <br>
+        <input type="reset" value="reset now" id="button">
+        <input type="submit" value="submit now" id="button">
+    </from>
+</body>
+</html>
